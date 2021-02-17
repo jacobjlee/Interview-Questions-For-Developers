@@ -20,16 +20,16 @@ DevOps의 모범 사례는 다음과 같다.
 CI는 **Continuous Integration**의 줄임말로, **지속적인 통합**을 의미한다.
 CI를 성공적으로 구현할 경우, 애플리케이션에 대한 새로운 코드 변경 사항이 정기적으로 빌드 및 테스트되어 공유 repository에 통합되므로 여러 명의 개발자가 동시에 애플리케이션 개발과 관련된 코드 작업을 할 경우 서로 충돌할 수 있는 문제를 해결할 수 있다.
 
-![DevOps%2001e85d4dd0a84d9da130c433b4552048/Untitled.png](DevOps%2001e85d4dd0a84d9da130c433b4552048/Untitled.png)
+![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/05ed288e-950e-439a-93be-57290db0e584/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210217%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210217T110435Z&X-Amz-Expires=86400&X-Amz-Signature=c5d896703ae3f9092cd39bf5ef274eccf2b8a00cf40124e9f5218da6ee0d4088&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
 
 ### 4. CD란 무엇인가?
 
-CD는 **지속적인 서비스 제공** (**Continuous Delivery)** 또는 **지속적인 배포(Continuous Deployment)**를 의미하며, 두 용어는 상호 교환적으로 사용된다.
+CD는 **지속적인 서비스 제공** (**Continuous Delivery)** 또는 **지속적인 배포(Continuous Deployment)** 를 의미하며, 두 용어는 상호 교환적으로 사용된다.
 
 - **지속적인 제공**이란 개발자들이 애플리케이션에 적용한 변경 사항이 버그 테스트를 거쳐 repository에 자동으로 업로드되는 것을 뜻하며, 운영팀은 이 repository에서 애플리케이션을 실시간 프로덕션 환경으로 배포할 수 있다. 이는 개발팀과 비즈니스팀 간의 가시성과 커뮤니케이션 부족 문제를 해결해 준다. 또한 지속적인 제공은 최소한의 노력으로 새로운 코드를 배포하는 것을 목표로 한다.
 - **지속적인 배포**란 개발자의 변경 사항을 repository에서 고객이 사용 가능한 프로덕션 환경까지 자동으로 release하는 것을 의미한다. 이는 애플리케이션 제공 속도를 저해하는 수동 프로세스로 인한 운영팀의 과부하 문제를 해결한다.
 
-![DevOps%2001e85d4dd0a84d9da130c433b4552048/Untitled%201.png](DevOps%2001e85d4dd0a84d9da130c433b4552048/Untitled%201.png)
+![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/5e9c846d-7276-440c-b0fb-25fafafeb44e/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210217%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210217T110506Z&X-Amz-Expires=86400&X-Amz-Signature=9b912210aacf9a3fc0f66d4144a38b11297976d23deb5c5add9f4f6c8bfa6dc4&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
 
 ### 5. Jenkins vs. Travis CI vs. Circle CI
 
@@ -60,11 +60,11 @@ CD는 **지속적인 서비스 제공** (**Continuous Delivery)** 또는 **지�
 즉, 마이크로서비스란 **애플리케이션의 핵심 기능이면서 다른 서비스들과 독립적으로 작동**한다.
 애플리케이션 핵심 기능을 유연하게 결합할 뿐 아니라, **불가피한 장애, 향후 확장 여부 및 새로운 기능 통합에 대비할 수 있도록 서비스 간 커뮤니케이션 및 개발팀의 구조를 조정**하는 practice이다.
 
-![DevOps%2001e85d4dd0a84d9da130c433b4552048/Untitled%202.png](DevOps%2001e85d4dd0a84d9da130c433b4552048/Untitled%202.png)
+![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/e99a45dc-6d8e-4339-b6d8-ad00d4717555/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210217%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210217T110509Z&X-Amz-Expires=86400&X-Amz-Signature=595b3ac56f0a7df580c1dc35f1826e105ebcb9a64735e332163a8c866304f50e&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
 
 ### 7. 코드형 인프라란 무엇인가?
 
-'**프로그래밍형 인프라**'라고도 불리는 **코드형 인프라 (Infrastructure as Code)**는 인프라 구성을 마치 소프트웨어를 프로그래밍하는 것처럼 처리하는 방식을 가리킨다. 
+'**프로그래밍형 인프라**'라고도 불리는 **코드형 인프라 (Infrastructure as Code)는** 인프라 구성을 마치 소프트웨어를 프로그래밍하는 것처럼 처리하는 방식을 가리킨다. 
 
 ### 8. 코드형 인프라는 어떤 장점을 가지고 있는가?
 
