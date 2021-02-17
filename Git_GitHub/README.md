@@ -1,6 +1,6 @@
 ### 1. Git이란?
 
-**Git**은 **분산 버전 관리 시스템 (VCS)**로, 프로젝트 파일의 변경 사항을 추적하는 시스템이다.
+**Git**은 **분산 버전 관리 시스템(VCS)로**, 프로젝트 파일의 변경 사항을 추적하는 시스템이다.
 이를 통해 개발자들은 프로젝트의 변경 사항을 기록하고, 특정 시점의 버전으로 언제든 돌아갈 수 있다.
 많은 사람들이 효율적으로 함께 작업하고, 프로젝트를 중심으로 협업할 때 사용할 수 있다.
 
@@ -17,7 +17,7 @@ Git repository에는 다음과 같이 크게 두 가지 종류가 있다.
 
 Git에서 **commit**이란, 프로젝트의 현재 상태를 나타내는 체크포인트 또는 스냅샷으로 생각할 수 있다.
 쉽게 말해, **현재 버전의 코드를 커밋에 저장**한다고 생각하면 된다. 커밋 히스토리에 필요한 만큼 커밋을 생성 할 수 있고, 커밋 앞뒤로 이동하여 프로젝트 코드의 다른 변경사항을 확인할 수 있다.
-*** 코드를 커밋하려면 우선 코드를 `staging area`에 추가해야 한다.**
+** 코드를 커밋하려면 우선 코드를 `staging area`에 추가해야 한다**
 
 ### 4. Branch란?
 
@@ -57,7 +57,7 @@ Git Flow는 총 5가지의 브랜치를 사용해서 운영 한다.
 - `release`: 배포를 위해 master 브랜치로 보내기 전에 먼저 QA(Quality Assurance, 품질 검사)를 하기위한 브랜치이다.
 - `hotfix`: master 브랜치로 배포를 했는데 버그가 생겼을 때 긴급 수정하는 브랜치이다.
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/47291df0-67c0-444e-96c7-78833139c438/_2020-12-30__12.22.46.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/47291df0-67c0-444e-96c7-78833139c438/_2020-12-30__12.22.46.png)
+![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/47291df0-67c0-444e-96c7-78833139c438/_2020-12-30__12.22.46.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210217%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210217T110730Z&X-Amz-Expires=86400&X-Amz-Signature=3f528f9b9b8487b35a31d005cf35892c66554e8b16df74c1f29a00e46de83811&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22_2020-12-30__12.22.46.png%22)
 
 ### 10. Git Rebase란?
 
