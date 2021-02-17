@@ -1,5 +1,3 @@
-# Git & GitHub
-
 ### 1. Git이란?
 
 **Git**은 **분산 버전 관리 시스템 (VCS)**로, 프로젝트 파일의 변경 사항을 추적하는 시스템이다.
@@ -59,7 +57,7 @@ Git Flow는 총 5가지의 브랜치를 사용해서 운영 한다.
 - `release`: 배포를 위해 master 브랜치로 보내기 전에 먼저 QA(Quality Assurance, 품질 검사)를 하기위한 브랜치이다.
 - `hotfix`: master 브랜치로 배포를 했는데 버그가 생겼을 때 긴급 수정하는 브랜치이다.
 
-![Git%20&%20GitHub%2046f7f98bff6d4458ac3c250bc5e0ef8e/_2020-12-30__12.22.46.png](Git%20&%20GitHub%2046f7f98bff6d4458ac3c250bc5e0ef8e/_2020-12-30__12.22.46.png)
+![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/47291df0-67c0-444e-96c7-78833139c438/_2020-12-30__12.22.46.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/47291df0-67c0-444e-96c7-78833139c438/_2020-12-30__12.22.46.png)
 
 ### 10. Git Rebase란?
 
