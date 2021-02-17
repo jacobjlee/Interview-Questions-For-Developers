@@ -1,10 +1,10 @@
 # DevOps
 
-### 1. DevOps란?
+### DevOps란?
 
 **DevOps**란 **애플리케이션과 서비스를 빠른 속도로 제공할 수 있는 있도록 조직의 역량을 향상시키는 문화 철학, 방식 및 도구의 조합**이다. 기존의 소프트웨어 개발 및 인프라 관리 프로세스를 사용하는 조직보다 **제품을 더 빠르게 혁신하고 개선**할 수 있다. 이러한 빠른 속도를 통해 조직은 고객을 더 잘 지원하고 시장에서 좀 더 효과적으로 경쟁할 수 있다.
 
-### 2. DevOps에는 어떤 방식이 있는가?
+### DevOps에는 어떤 방식이 있는가?
 
 DevOps의 모범 사례는 다음과 같다.
 
@@ -15,14 +15,14 @@ DevOps의 모범 사례는 다음과 같다.
 - 모니터링 및 로깅
 - 커뮤니케이션 및 협업
 
-### 3. CI란 무엇인가?
+### CI란 무엇인가?
 
 CI는 **Continuous Integration**의 줄임말로, **지속적인 통합**을 의미한다.
 CI를 성공적으로 구현할 경우, 애플리케이션에 대한 새로운 코드 변경 사항이 정기적으로 빌드 및 테스트되어 공유 repository에 통합되므로 여러 명의 개발자가 동시에 애플리케이션 개발과 관련된 코드 작업을 할 경우 서로 충돌할 수 있는 문제를 해결할 수 있다.
 
 ![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/05ed288e-950e-439a-93be-57290db0e584/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210217%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210217T110435Z&X-Amz-Expires=86400&X-Amz-Signature=c5d896703ae3f9092cd39bf5ef274eccf2b8a00cf40124e9f5218da6ee0d4088&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
 
-### 4. CD란 무엇인가?
+### CD란 무엇인가?
 
 CD는 **지속적인 서비스 제공** (**Continuous Delivery)** 또는 **지속적인 배포(Continuous Deployment)** 를 의미하며, 두 용어는 상호 교환적으로 사용된다.
 
@@ -31,7 +31,7 @@ CD는 **지속적인 서비스 제공** (**Continuous Delivery)** 또는 **지�
 
 ![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/5e9c846d-7276-440c-b0fb-25fafafeb44e/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210217%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210217T110506Z&X-Amz-Expires=86400&X-Amz-Signature=9b912210aacf9a3fc0f66d4144a38b11297976d23deb5c5add9f4f6c8bfa6dc4&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
 
-### 5. Jenkins vs. Travis CI vs. Circle CI
+### Jenkins vs. Travis CI vs. Circle CI
 
 - **Jenkins**
 
@@ -51,7 +51,7 @@ CD는 **지속적인 서비스 제공** (**Continuous Delivery)** 또는 **지�
 
 - 그 외, Gitlab CI, TeamCity같은 툴도 있다.
 
-### 6. Microservices Architecture란?
+### Microservices Architecture란?
 
 마이크로서비스는 **애플리케이션 구축을 위한 아키텍처 기반의 접근 방식**이다. 
 마이크로서비스를 전통적인 monolithic 접근 방식과 구별 짓는 기준은, **애플리케이션을 핵심 기능으로 세분화하는 방식을 사용하는가**이다. 마이크로서비스에서는 **각 기능을 서비스**라고 부르고, **독립적으로 구축하고 배포**할 수 있다. 이렇게 함으로 개별 서비스가 다른 서비스에 부정적 영향을 주지 않으면서 작동(또는 장애가 발생)할 수 있다.
@@ -62,11 +62,11 @@ CD는 **지속적인 서비스 제공** (**Continuous Delivery)** 또는 **지�
 
 ![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/e99a45dc-6d8e-4339-b6d8-ad00d4717555/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210217%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210217T110509Z&X-Amz-Expires=86400&X-Amz-Signature=595b3ac56f0a7df580c1dc35f1826e105ebcb9a64735e332163a8c866304f50e&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
 
-### 7. 코드형 인프라란 무엇인가?
+### 코드형 인프라란 무엇인가?
 
 '**프로그래밍형 인프라**'라고도 불리는 **코드형 인프라 (Infrastructure as Code)** 는 인프라 구성을 마치 소프트웨어를 프로그래밍하는 것처럼 처리하는 방식을 가리킨다. 
 
-### 8. 코드형 인프라는 어떤 장점을 가지고 있는가?
+### 코드형 인프라는 어떤 장점을 가지고 있는가?
 
 - 빠른 속도와 편리함
 - 수동 구성이 아닌 자동화로 일관성 있는 구성
